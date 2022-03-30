@@ -1,0 +1,1 @@
+web:gunicorn src.app:portifolio-gui-2022 --log-file -
