@@ -66,7 +66,7 @@ RNF 09 |
 ***
 
 
-## Passo a Passo para Rodar
+## Passo a Passo para Rodar no CMD
 ### Primeiro Instale o Python na versão 3.10
 <div align="center">
   
@@ -92,3 +92,17 @@ set FLASK_APP=src/app.py
 ~~~
 flask run
 ~~~
+
+## Caso a execução de Scripts esteja desativada - Passo a Passo para ativar
+
+### Abra o PowerShell no modo Administrador e digite o seguinte código
+~~~
+Set-ExecutionPolicy Unrestricted
+~~~
+### Digite 'A'
+
+<div align="center">
+
+   ![image](https://user-images.githubusercontent.com/79495727/160821599-f4b87a00-5f66-408b-a201-de8bdea3c394.png)
+
+ </div>
