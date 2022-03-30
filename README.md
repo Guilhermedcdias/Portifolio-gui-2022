@@ -64,3 +64,31 @@ RNF 09 |
 </div>
 
 ***
+
+
+## Passo a Passo para Rodar
+### Primeiro Instale o Python na versão 3.10
+<div align="center">
+  
+  
+  ![image](https://user-images.githubusercontent.com/79495727/160816267-c4fd85f1-b5df-4a2a-95ea-a9ad8a4689a9.png)
+  
+</div>
+
+### Crie um ambiente virtual para rodar o aplicativo
+~~~ 
+py -3 -m venv venv
+~~~
+### Instale as dependencias usando o arquivo Requirements.txt
+~~~
+pip install -r requirements.txt
+~~~
+### Set o FLASK_ENV e o FLASK_APP
+~~~
+set FLASK_ENV=development
+set FLASK_APP=src/app.py
+~~~
+### Rode o servidor local
+~~~
+flask run
+~~~
