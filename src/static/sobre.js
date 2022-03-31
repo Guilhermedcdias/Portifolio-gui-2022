@@ -17,6 +17,11 @@ $(document).ready(function() {
         $('html').animate({ scrollTop: 0 });
     });
 
+    $('.menu-btn').click(function() {
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
     var typed = new Typed(".typing-2", {
         strings: ["Desenvolvedor FullStack.", "Designer Digital."],
         typeSpeed: 100,
