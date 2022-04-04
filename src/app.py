@@ -26,3 +26,7 @@ def trabalhos():
 @app.route("/contato.html")
 def contato():
     return render_template("contato.html")
+
+@app.route("/fotos.html")
+def fotos():
+    return render_template("fotos.html")

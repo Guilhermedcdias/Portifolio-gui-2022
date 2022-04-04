@@ -44,10 +44,20 @@ html {
     justify-content: space-between;
 }
 
+.navbar .logo img {
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    vertical-align: sub;
+    filter: drop-shadow(16px 16px 20px rgba(95, 95, 95, 0.781));
+}
+
 .navbar .logo a {
     color: #fff;
+    text-decoration: none;
     font-size: 35px;
     font-weight: 500;
+    vertical-align: sub;
 }
 
 .navbar .logo a span {
@@ -69,6 +79,7 @@ html {
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
@@ -212,6 +223,7 @@ section .title::after {
 .skills,
 .works,
 .contact,
+.photos,
 footer {
     font-family: 'Roboto', sans-serif;
 }
@@ -290,6 +302,7 @@ footer {
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
+    filter: contrast(200px) saturate(100px);
 }
 
 
@@ -675,6 +688,7 @@ footer {
     padding: 20px 23px;
     color: #fff;
     text-align: center;
+    bottom: 0;
 }
 
 footer span a {
