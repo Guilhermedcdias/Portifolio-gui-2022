@@ -6,6 +6,7 @@
 * src: Pasta com os códigos
 * doc: Pasta com Documentação relacionada ao Projeto
 
+**Link de Hospedagem Heroku:** https://gdeguilerme-portifolio.herokuapp.com/index.html
 
 ***
 ## Técnologias Utilizadas
@@ -35,32 +36,17 @@
   
 COD | DESCRIÇÃO | PRIORIDADE | STATUS |
 :--:|:---------:|:----------:|:-----:|
-RF 01 | ✔️ |
-RF 02 | 👎 |
-RF 03 | 
-RF 04 | 
-RF 05 | 
-RF 06 | 
-RF 07 | 
-RF 08 | 
-RF 09 | 
- 
+RF 01 |O sistema deverá ser desenvolvido utilizando-se HTML 5, com uso apropriado de cada elemento para estruturar o conteúdo da aplicação. |ALTA | ✔️ |
+RF 02 |O sistema deverá ser desenvolvido utilizando-se CSS 3, com no mínimo 5 regras criadas sem a utilização de frameworks. | ALTA | ✔️ |
+RF 03 |O sistema deverá fazer uso de pelo menos um framework de CSS 3 para estilizar a aplicação. | ALTA | ✔️ | 
+RG 04 |O sistema deverá ser implantado em um servidor de aplicação, tal como Heroku. | ALTA | ✔️ |
   
   
    ### Requisitos Não Funcionais
   
 COD | DESCRIÇÃO | PRIORIDADE | STATUS |
 :--:|:---------:|:----------:|:------:|
-RNF 01 | 
-RNF 02 | 
-RNF 03 | 
-RNF 04 | 
-RNF 05 | 
-RNF 06 |
-RNF 07 | 
-RNF 08 | 
-RNF 09 | 
-
+RNF 01 | O front end do sistema poderá fazer uso de JavaScript. | BAIXA | ✔️ |
 </div>
 
 ***
