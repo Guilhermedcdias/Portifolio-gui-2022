@@ -1,4 +1,6 @@
-from flask import Flask, render_template, url_for
+from crypt import methods
+import email
+from flask import Flask, render_template, url_for, request
 
 app = Flask(__name__)
 
@@ -23,8 +25,12 @@ def especialidades():
 def trabalhos():
     return render_template("trabalhos.html")
 
-@app.route("/contato.html")
+@app.route("/contato.html", methods=['GET'])
 def contato():
+    nome = request.args.get('nome')
+    sobrenome = request.args.get('sobrenome')
+    mail =  request.args.get('mail')
+    msg = request.args.get('msg')
     return render_template("contato.html")
 
 @app.route("/fotos.html")
