@@ -36,3 +36,7 @@ def contato():
 @app.route("/fotos.html")
 def fotos():
     return render_template("fotos.html")
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
